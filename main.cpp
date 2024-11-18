@@ -66,7 +66,7 @@ int main() {
         cout << "Payment in process !!" << endl;
         cout << "Payment done!" << endl;
         cout << "------------------------------------------------------------------------------" << endl;
-        cout << "Thank you for choosing S-CUBE Cabs\nWe Hope You continue to avail our service " << endl;
+        cout << "Thank you for choosing Marine Cabs\nWe Hope You continue to avail our service " << endl;
         cout << "------------------------------------------------------------------------------" << endl;
     }
     else {
@@ -81,7 +81,7 @@ int main() {
     cout << "Payment in process !!" << endl;
     cout << "Payment done!" << endl;
     cout << "------------------------------------------------------------------------------" << endl;
-    cout << "Thank you for choosing S-CUBE Cabs\nWe Hope You continue to avail our service " << endl;
+    cout << "Thank you for choosing Marine Cabs\nWe Hope You continue to avail our service " << endl;
     cout << "------------------------------------------------------------------------------" << endl;
 
     // Play the "Thank.wav" sound after payment
