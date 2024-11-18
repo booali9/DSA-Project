@@ -213,7 +213,30 @@ public:
     float amountPerPerson = 0;
     CabRatingSystem ratingSystem;
     // locations
-    vector<string> locations = {"Art Gallery Haven", "Beachfront Resort", "Bookworm's Cafe", "Cafe Harmony", "Central Market", "Cinema Paradiso", "City Center", "Cricket Stadium", "Fitness Junction", "Green Oasis Park", "Hotel Plaza", "Park", "Restaurant Elegance", "Shopping Mall Deluxe", "Sky Lounge", "Tech Hub Plaza"};
+   vector<string> locations = {
+    "Jinnah", 
+    "Saddar", 
+    "Korangi", 
+    "Lyari", 
+    "Saddar", 
+    "Gulshan", 
+    "Beach", 
+   "Jinnah", 
+    "Saddar", 
+    "Korangi", 
+    "Lyari", 
+    "Saddar", 
+    "Gulshan", 
+    "Beach",  
+    "Jinnah Bridge", 
+    "Stadium", 
+    "Empress Market", 
+    "North Nazimabad", 
+    "Lyari", 
+    "Hyderi Market", 
+    "Jinnah International Airport"
+};
+
     vector<Cab *> allCabs;
 
     // constructor to add all the cabs with their details
@@ -286,7 +309,7 @@ public:
         if (check == 1)
         {
             cout << "NO cabs available right now at your location, \nWe are sending nearbly cab to you wait for " << rand() % 10 + 1 << " Minutes!!" << endl;
-            allCabs.push_back(new Intercity(535451, "Rahul Kumar", userLocation, 1));
+            allCabs.push_back(new Intercity(535451, "Ali", userLocation, 1));
 
             for (Cab *cab : allCabs)
             {
@@ -366,7 +389,7 @@ public:
                 }
             }
 
-            cout << "Enter the destination location : ";
+            cout << "Enter the drop off point : ";
             string destinationLocation;
             cin.ignore();
             getline(cin, destinationLocation);
